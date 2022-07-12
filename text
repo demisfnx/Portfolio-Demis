@@ -1,0 +1,75 @@
+background: url('../images/bg.png')'no-repeat;
+
+<div class="about-info">
+                <div class="description">
+                    <h3>My name is Demis Roussos</h3>
+                    <h4>Desenvolvedor Web - FrontEnd</h4>
+                    <p>Atualmente me capacito, mas não me limito. A melhor linguagem é aquela que soluciona problemas e
+                        gera valor. Aspiro tornar-me um hábil desenvolvedor Full-Stack qualificado e focado nas
+                        seguintes tecnologias: Python, Django, HTML, CSS, JavaScript, ReactJS, NodeJS, NEXTjs e Banco de
+                        Dados (MySQL, PostgreSQL, MongoDB). Junto a isto, elaboro pequenos projetos para validar todo o
+                        conhecimento adquirido durante esta jornada, como também, alimento o Github com tais projetos de
+                        estudo, pesquisa e trabalho.</p>
+                </div>
+                <a href="" class="btn">Download CV<i class="fas fa-download"></i></a>
+            </div>
+        </div>
+
+        <div class="scrollToTop-btn">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+
+        .scrollToTop-btn{
+            z-index: 99999;
+            position: fixed;
+            right:0;
+            bottom: 20px;
+            width:45px;
+            height: 45px;
+            background: #0e0d30;
+            color: #fff;
+            font-size:0.9em;
+            border-radius:3px;
+            cursor: pointer;
+          }
+
+        <div class="education-right">
+            <h4><label>Skills</label></h4>
+            <ul class="bars">
+                <li class="bar">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line html"></div>
+                </li>
+                <li class="bar">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="line css"></div>
+                </li>
+                <li class="bar">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>45%</span>
+                    </div>
+                    <div class="line javascript"></div>
+                </li>
+                <li class="bar">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="line python"></div>
+                </li>
+                <li class="bar">
+                    <div class="info">
+                        <span>React</span>
+                        <span>45%</span>
+                    </div>
+                    <div class="line react"></div>
+                </li>
+            </ul>
+        </div>
